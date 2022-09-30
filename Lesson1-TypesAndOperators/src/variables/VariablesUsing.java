@@ -3,7 +3,7 @@ package variables;
 import javax.swing.*;
 
 public class VariablesUsing {
-    public void run() {
+    public static void main(String[] args) {
         // Числовая переменная:
         int number = 123;
 

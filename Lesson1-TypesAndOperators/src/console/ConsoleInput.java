@@ -3,7 +3,7 @@ package console;
 import java.util.Scanner;
 
 public class ConsoleInput {
-    public void run() {
+    public static void main(String[] args) {
         // Инициализируем сканер
         var input = new Scanner(System.in);
 

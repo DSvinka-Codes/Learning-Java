@@ -3,7 +3,7 @@ package windows;
 import javax.swing.*;
 
 public class WindowsInput {
-    public void run() {
+    public static void main(String[] args) {
         // Заранее объявляем переменную.
         // Говорим жабе что у нас она вообще существует, и что нужно подготовиться к её использованию.
         // Можно делать такие объявления, можно не делать, по ситуации.

@@ -1,9 +1,11 @@
-package windows;// Импортируем библиотеку, которая отвечает за окошки.
+package windows;
+
+// Импортируем библиотеку, которая отвечает за окошки.
 // Она в Java встроенная, её докачивать не требуется.
 import javax.swing.*;
 
 public class WindowsOpen {
-    public void run() {
+    public static void main(String[] args) {
         var title = "Залолильная Хистория";
         var text = "Я лоля, Ты лоля, Мы лоли";
 
@@ -11,6 +13,6 @@ public class WindowsOpen {
         // text - указываем текст окна.
         // title - указываем заголовок окна.
         // JOptionPane.WARNING_MESSAGE - указываем иконку окна.
-        JOptionPane.showMessageDialog(null, text, title, JOptionPane.WARNING_MESSAGE);
+        JOptionPane.showMessageDialog(null, text, title, JOptionPane.INFORMATION_MESSAGE);
     }
 }

@@ -3,7 +3,7 @@ package windows;
 import javax.swing.*;
 
 public class WindowsOpenWithInput {
-    public void run() {
+    public static void main(String[] args) {
         // Записываем заголовок
         var title = JOptionPane.showInputDialog(null, "Заголовок окна", "Заголовок", JOptionPane.QUESTION_MESSAGE);
 
