@@ -49,6 +49,13 @@ public class VariablesUsing {
         var x1 = 32.1;
         var x2 = 40.3f;
 
+        // Строка в число
+        var x3 = Integer.parseInt("40");
+        var x4 = Float.parseFloat("40.45f");
+        var x5 = Double.parseDouble("40.45");
+
+        var x6 = (float) 3;
+
         // Символьная переменная:
         var symbol = 'A';
 

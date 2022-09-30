@@ -9,11 +9,12 @@ public class WindowsInput {
         // Можно делать такие объявления, можно не делать, по ситуации.
         // Конкретно в этой ситуации это не обязательно.
         // Хотя так мы сразу понимаем что у нас в коде будет использоваться именно такой список переменных.
+        // Sting = Строка (не трусы)
         String text;
 
         // Получаем текст из окна.
         text = JOptionPane.showInputDialog("Введите букавки");
 
-        JOptionPane.showMessageDialog(null, "Вы ввели такой текст:\n" + text);
+        JOptionPane.showMessageDialog(null, "Вы ввели такой текст:\n" + text, "tt", JOptionPane.WARNING_MESSAGE);
     }
 }

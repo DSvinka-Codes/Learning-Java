@@ -1,5 +1,6 @@
 package console;
 
+import javax.swing.*;
 import java.util.Scanner;
 
 public class ConsoleInput {
@@ -13,7 +14,7 @@ public class ConsoleInput {
         // - String day;
         // - String month;
 
-        String day, month;
+        String day, month, year;
 
         // Отправляем в консоль сообщение без переноса строки
         System.out.print("Укажите день недели: ");
@@ -27,9 +28,13 @@ public class ConsoleInput {
         // Ожидаем ввода с консоли.
         month = input.nextLine();
 
-        // А вот и ответ
-        var text = "Сегодня "+day+", месяц - "+month;
+        System.out.print("Укажите Год: ");
 
-        System.out.println(text);
+        year = input.nextLine();
+
+        // А вот и ответ
+        var text = "Сегодня - " + day + ", месяц - "+ month +", Год - " + year;
+
+        JOptionPane.showMessageDialog(null, text);
     }
 }
