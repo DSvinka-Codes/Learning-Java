@@ -19,7 +19,6 @@ public class Main {
             if (Utils.getLength(aliveMobs) == 1) {
                 var mob = Utils.getFirstNotNullValue(aliveMobs);
                 if (mob == null) {
-                    System.out.println("ЧТО ЗА ХУЙНЯ БЛЯТЬ!?");
                     return;
                 }
 
